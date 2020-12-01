@@ -38,10 +38,10 @@ class PerfilUsuario{
         void setCorreo(string correo){this->correo = correo;}
         
         void creacion(){
-            cout << "\n**Finalmente crearemos tu perfil de usuario como más te guste**"<<endl;
+            cout << "\n***Finalmente crearemos tu perfil de usuario como más te guste***"<<endl;
             cout << "\nIntroduce el nombre de tu perfil sin espacios ";cin >> nombre_perfil;
             cout << "\n Introduce tu correo electrónico: ";cin >> correo;
-            cout << "\nEscriba una descripción de su persona(atención los espacios se introducen con guion bajo)): "; cin >> descripcion;
+            cout << "\nEscriba una descripción de su persona(atención los espacios se introducen con guion bajo): "; cin >> descripcion;
         }
          void clasificar(){
              string seleccion;
@@ -62,7 +62,7 @@ class PerfilUsuario{
          void verTutorial(){
              string regresa;
              string tuto;
-             cout<<"\n¿Desea ver tutroiales nuevamente?"; cin >> regresa;
+             cout<<"\n¿Desea ver tutoriales nuevamente?"; cin >> regresa;
             if (regresa == "Si"){
                 cout<<"\n¿Tutorial Compra o Venta?"; cin >> tuto;
                 if (tuto == "Compra"){

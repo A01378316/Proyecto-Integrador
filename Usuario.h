@@ -34,9 +34,9 @@ class Usuario{
         
 
         void introducir(){
-            cout << "Introduce tu nombre completo: "; cin >> nombre;
+            cout << "Introduce tu nombre completo (los espacios introducirlos con guión bajo): "; cin >> nombre;
             cout << "\nIntroduce tu edad: "; cin >> edad;
-            cout << "\nIntroduce tu direccion: "; cin >> direccion;
+            cout << "\nIntroduce tu direccion: (los espacios introducirlos con guión bajo)"; cin >> direccion;
 
         }
 
