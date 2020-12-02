@@ -41,9 +41,9 @@ class Usuario{
         }
 
         void imprime_datos(){
-            cout<<"El nombre de usuario es:"<<nombre<<endl;
-            cout<<"La edad del usuario es:"<<edad<<endl;
-            cout<<"La direccion del usuario es:"<<direccion<<endl;
+            cout<<"El nombre de usuario es: "<<nombre<<endl;
+            cout<<"La edad del usuario es: "<<edad<<endl;
+            cout<<"La direccion del usuario es: "<<direccion<<endl;
         }
 
         void seleccionar(){
