@@ -8,8 +8,8 @@ using namespace std;
 
 class FotoPerfil{
     private:
-        float largo;
-        float ancho;
+        int largo;
+        int ancho;
         bool color;
        
     public:
@@ -18,18 +18,18 @@ class FotoPerfil{
             ancho = 252;
             color = false; 
         }
-        FotoPerfil(float largo, float ancho, bool color){
+        FotoPerfil(int largo, int ancho, bool color){
             this->largo = largo;
             this->ancho = ancho;
             this->color = color;
         }
 
-        float getLargo(){return largo;}
-        float getAncho(){return ancho;}
+        int getLargo(){return largo;}
+        int getAncho(){return ancho;}
         bool getColor(){return color;}
 
-        void setLargo(float largo){this->largo = largo;}
-        void setAncho(float ancho){this->ancho = ancho;}
+        void setLargo(int largo){this->largo = largo;}
+        void setAncho(int ancho){this->ancho = ancho;}
         void setColor(bool color){this->color = color;}
         
 
